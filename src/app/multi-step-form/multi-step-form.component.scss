@@ -1,0 +1,19 @@
+.field-label {
+  @apply text-sm leading-[21px] mb-2.5 font-semibold;
+}
+
+.validation-error {
+  @apply text-rose-500 text-sm mt-1;
+}
+
+.field {
+  @apply border border-[#D1D5DB] py-4 px-[13px] text-sm font-medium rounded-md placeholder:text-[#5C5C5C];
+}
+
+.btn-primary {
+  @apply bg-primary text-white h-[51px] rounded-md px-5 w-full font-semibold disabled:opacity-50;
+}
+
+.btn-outline {
+  @apply bg-transparent text-primary h-[51px] rounded-md px-5 w-full font-semibold border border-primary disabled:opacity-50;
+}
